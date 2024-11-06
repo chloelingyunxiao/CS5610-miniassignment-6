@@ -1,0 +1,36 @@
+.box-off {
+  background-color: white;
+  border: 1px solid grey;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-on {
+  background-color: black;
+  border: 1px solid grey;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
